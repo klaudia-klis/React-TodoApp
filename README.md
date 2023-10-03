@@ -60,9 +60,9 @@ Open your web browser and navigate to http://localhost:3000 to access the Todo a
 
 ### Technologies Used
 
-**React:** A JavaScript library for building user interfaces.
-**TypeScript:** A typed superset of JavaScript that adds static typing to the language.
-**RESTful API:** The backend API is built following RESTful principles.
+- **React:** A JavaScript library for building user interfaces.
+- **TypeScript:** A typed superset of JavaScript that adds static typing to the language.
+- **RESTful API:** The backend API is built following RESTful principles.
 
 ### Contributing
 

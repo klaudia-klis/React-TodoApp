@@ -52,11 +52,11 @@ Open your web browser and navigate to http://localhost:3000 to access the Todo a
 
 ### Usage
 
-**Adding a Task:** Enter a task description in the input field at the top of the page and press Enter to add it to the list.
-**Completing a Task:** Click the checkbox to mark a task as completed.
-**Editing a Task:** Double-click on a task to enter edit mode, then make your changes and press Enter to save.
-**Deleting a Task:** Click the "X" button next to a task to delete it.
-**Filtering Tasks:** Use the filter buttons at the bottom of the list to filter tasks by completion status (All, Active, Completed).
+- **Adding a Task:** Enter a task description in the input field at the top of the page and press Enter to add it to the list.
+- **Completing a Task:** Click the checkbox to mark a task as completed.
+- **Editing a Task:** Double-click on a task to enter edit mode, then make your changes and press Enter to save.
+- **Deleting a Task:** Click the "X" button next to a task to delete it.
+- **Filtering Tasks:** Use the filter buttons at the bottom of the list to filter tasks by completion status (All, Active, Completed).
 
 ### Technologies Used
 

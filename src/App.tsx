@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { UserWarning } from './UserWarning';
+// eslint-disable-next-line max-len
+import { TodosProvider } from './providers/TodosContext';
+import { TodoApp } from './components/TodoApp/TodoApp';
 
-function App() {
+const USER_ID = 11547;
+
+export const App: React.FC = () => {
+  if (!USER_ID) {
+    return <UserWarning />;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TodosProvider>
+      <TodoApp />
+    </TodosProvider>
   );
-}
-
-export default App;
+};

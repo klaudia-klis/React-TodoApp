@@ -23,7 +23,7 @@ This is a simple Todo application built using React, TypeScript, and a RESTful A
 
 ## Demo
 
-Check out the live demo [DEMO LINK](https://klaudia-klis.github.io/react-todoapp-portfolio/) to see it in action!
+Check out the live demo [DEMO LINK](https://klaudia-klis.github.io/React-TodoApp/) to see it in action!
 
 ## Prerequisites
 
